@@ -1,0 +1,25 @@
+{
+    "development": {
+      "username": "root",
+      "password": "M2SQL3",
+      "database": "tfe_movies_dev",
+      "host": "127.0.0.1",
+      "logging" : true,
+      "dialect": "mysql",
+      
+      "dialectOptions": {
+        "dateStrings": true
+        }
+    },
+    "test": {
+      "username": "root",
+      "password": "M2SQL3",
+      "database": "tfe_movies_test",
+      "host": "127.0.0.1",
+      "dialect": "mysql",
+      "operatorsAliases": false,
+      "dialectOptions": {
+        "dateStrings": true
+        }
+    }
+  }
